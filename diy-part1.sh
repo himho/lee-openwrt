@@ -16,3 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git clone https://github.com//kiddin9/openwrt-packages/tree/master/luci-app-samba4 package/luci-app-samba4
