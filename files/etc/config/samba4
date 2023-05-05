@@ -1,0 +1,20 @@
+
+config samba
+	option workgroup 'WORKGROUP'
+	option charset 'UTF-8'
+	option description 'Samba on OpenWRT'
+	option homes '1'
+	option macos '0'
+	option name 'Lede'
+
+config sambashare
+	option auto '1'
+	option name 'sda1'
+	option path '/mnt/sda1'
+	option read_only 'no'
+	option guest_ok 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option device 'sda1'
+	option inherit_owner 'yes'
+
