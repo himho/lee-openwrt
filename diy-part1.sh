@@ -17,4 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/kiddin9/openwrt-packages/tree/07f42ff989de0d78a3efdbadb221ef731cb2e16c/luci-app-samba4 package/luci-app-samba4
-rm -rf /home/ho/lede/package/feeds/luci/luci-app-samba4
+rm -rf .feeds/luci/luci-app-samba4
